@@ -1,0 +1,14 @@
+<svg width="24.000000" height="24.000000" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip1_168">
+			<rect id="material-symbols:meeting-room-outline" width="24.000000" height="24.000000" fill="white" fill-opacity="0"/>
+		</clipPath>
+	</defs>
+	<rect id="material-symbols:meeting-room-outline" width="24.000000" height="24.000000" fill="#FFFFFF" fill-opacity="0"/>
+	<g clip-path="url(#clip1_168)">
+		<path id="Vector" d="M3 21L3 19L5 19L5 3L15 3L15 4L19 4L19 19L21 19L21 21L17 21L17 6L15 6L15 21L3 21ZM11 13C11.28 13 11.52 12.9 11.71 12.71C11.9 12.52 12 12.28 12 12C12 11.71 11.9 11.47 11.71 11.28C11.52 11.09 11.28 10.99 11 11C10.71 11 10.47 11.09 10.28 11.28C10.09 11.48 9.99 11.71 10 12C10 12.28 10.09 12.52 10.28 12.71C10.48 12.9 10.71 13 11 13ZM7 19L13 19L13 5L7 5L7 19Z" fill="#DEE2E6" fill-opacity="1.000000" fill-rule="nonzero"/>
+	</g>
+</svg>

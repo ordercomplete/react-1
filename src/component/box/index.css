@@ -1,0 +1,11 @@
+.box {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #dee2e6;
+  padding: 24px;
+}
+
+.box-shadow {
+  border-color: transparent;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.1);
+}

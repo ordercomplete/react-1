@@ -11,3 +11,130 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.price {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.price__header {
+  display: flex;
+  gap: 12px;
+}
+
+.price__value {
+  font-size: 42px;
+  color: #000;
+  font-weight: bold;
+}
+
+.price__value--has-discount {
+  color: #6c757d;
+  text-decoration: line-through;
+}
+
+.price__list {
+  display: grid;
+  gap: 12px;
+}
+
+.price__list-item {
+  border-bottom: 1px solid #dee2e6;
+  padding-bottom: 8px;
+  font-size: 16px;
+  display: flex;
+  gap: 12px;
+}
+
+
+
+.description {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.description__text {
+  color: #000;
+  font-size: 16px;
+  line-height: 1.6em;
+}
+
+.room__block {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.room__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+
+.room {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.room__title {
+  color: #000;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.room__info {
+  font-size: 16px;
+  color: 000;
+  line-height: 1.6;
+}
+
+.room__flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.room__price {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.title__flex {
+  display: flex;
+  gap: 20px;
+}
+
+.title__text {
+  font-size: 56px;
+  font-weight: bold;
+  color: #000;
+}
+
+.title__sub-block {
+  display: flex;
+  gap: 16px;
+}
+
+.title__sub-value {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.title__sub-value:not(:last-child)::after {
+  content: "";
+  display: block;
+  height: 4px;
+  width: 4px;
+  border-radius: 4px;
+  background-color: #000;
+}
